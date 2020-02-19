@@ -1,0 +1,97 @@
+/* MOBILE AND GLOBAL STYLES */
+
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
+nav {
+  display: none;
+  flex-direction: column;
+}
+
+nav a {
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.menu {
+  background-color: #066;
+  color: white;
+  line-height: 2em;
+}
+.menu-toggle {
+  display: flex;
+}
+
+body {
+  background-color: brown;
+}
+
+h1 {
+   color: white;
+ }
+main {
+  color: white;
+}
+p{
+  font-family: verdana;
+  font-size: 2em;
+}
+
+/*.menu:hover + nav, nav:hover {
+  display: flex;
+}
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 500px) {
+body {
+  background:blue
+}
+h1 {
+ color: white;
+}
+main {
+ color: white;
+}
+
+.menu {
+  display: none;
+}
+
+nav {
+ display: flex;
+ justify-content: space-around;
+ flex-direction: row;
+ flex-wrap: wrap;
+ background: white;
+ padding: inherit;
+}
+
+nav a {
+  background: black;
+  color: white;
+  /*padding: 5em;*/
+  transition: background 2.2s ;
+}
+nav a:hover{
+  background: red;
+}
+
+
+  /* applies to screens wider than 499px */
+
+}
+
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+  /* applies to screens wider than 999px */
+
+  body {
+    background: #ccf;
+  }
+}
